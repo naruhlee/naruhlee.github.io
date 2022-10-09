@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Techverse </title>
+<style>
+    body{
+        background-image: url(opening-image.png);
+        background-repeat: no-repeat;
+        background-color: #333333;
+        background-position: top;
+        background-size: cover;
+    }
+    #cpu-screen{
+        margin-left:28% ;
+        margin-top: 6%;
+    }
+
+    .tv-noise{
+        background: url(blurry-screen.jpg);
+        width: 1150px;
+        height: 822px;
+        margin-left: 675px;
+        margin-top: 150px;
+        animation: animate .5s steps(10) infinite;
+
+    }
+
+    @keyframes animate{
+        0%{
+            background-position: 0 0;
+        }
+        100%{
+            background-position: 100% 100%;
+        }
+    }
+
+    .enter-button{
+        border: 0;
+        line-height: 3;
+        padding: 0 20px;
+        font-size: 40px;
+        font-family: "Gill Sans", sans-serif; font-weight: bold;
+        text-align: center;
+        color: #ff66ff;
+        border-radius: 10px;
+        background-color: white;
+        position: absolute;
+        top: 510px;
+        left: 920px;
+    }
+
+
+</style>
+</head>
+<body>
+    <!-- TV noise image -->
+    <div class="tv-noise"> </div>
+    
+    <!-- Enter Button -->
+    <div class="button"> 
+        <a href="blog.html">  
+        <button class="enter-button" type="button"> ENTER FOR AN EXPERIENCE </button>
+        </a>
+    </div>
+   
+
+    
+
+
+
+
+</body>
+</html>
